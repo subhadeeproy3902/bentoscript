@@ -7,7 +7,7 @@ read -p "Enter your GitHub email: " EMAIL
 
 # Define API and image link based on provided input
 API_LINK="https://opbento.vercel.app/api/bento?n=Subhadeep%20Roy&i=https%3A%2F%2Fi.postimg.cc%2FzDR14GfM%2Fsubha.jpg&g=subhadeeproy3902&x=mvp-subha&l=subhadeep3902"
-BENTO_LINK="[![OpBento](https://firebasestorage.googleapis.com/v0/b/smartkaksha-fe32c.appspot.com/o/opbento%2Fbento_1730531743345.png?alt=media&token=b673fdbd-331f-4c6f-afad-5c64eee5b258)](https://opbento.vercel.app)"
+BENTO_LINK="[![OpBento](https://firebasestorage.googleapis.com/v0/b/smartkaksha-fe32c.appspot.com/o/opbento%2Fbento_1730532766372.png?alt=media&token=ba49919f-59b0-42d1-a34f-0e6fbb18eb12)](https://opbento.vercel.app)"
 
 echo "Generated API Link: $API_LINK"
 echo "Generated Bento Link: $BENTO_LINK"
@@ -42,7 +42,7 @@ jobs:
       - name: Fetch Latest Bento Image URL
         id: fetch_bento_url
         run: |
-          API_URL="https://opbento.vercel.app/api/bento?n=Subhadeep%20Roy&i=https%3A%2F%2Fi.postimg.cc%2FzDR14GfM%2Fsubha.jpg&g=subhadeeproy3902&x=mvp-subha&l=subhadeep3902"
+          API_URL=""
           RESPONSE=$(curl -s "$API_URL")
           echo "API Response: $RESPONSE"  # Log the entire response
           IMAGE_URL=$(echo $RESPONSE | jq -r '.url')

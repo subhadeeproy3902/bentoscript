@@ -17,7 +17,7 @@ jobs:
       - name: Fetch Latest Bento Image URL
         id: fetch_bento_url
         run: |
-          API_URL="https://opbento.vercel.app/api/bento?n=Subhadeep%20Roy&i=https%3A%2F%2Fi.postimg.cc%2FzDR14GfM%2Fsubha.jpg&g=subhadeeproy3902&x=mvp-subha&l=subhadeep3902"
+          API_URL=""
           RESPONSE=
           echo "API Response: "  # Log the entire response
           IMAGE_URL=
