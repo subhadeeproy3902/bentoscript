@@ -44,7 +44,7 @@ jobs:
         if: env.skip != 'true'
         run: |
           git config --global user.email "subha9.5roy350@gmail.com"
-          git config --global user.name "[A[A[A[B[B[B[B[Asubhadeeproy3902"
+          git config --global user.name "subhadeeproy3902"
           git add .
           git commit -m "Update README with latest Bento stats image"
           git push
