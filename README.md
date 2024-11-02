@@ -1,2 +1,2 @@
-# Bento GitHub Stats for subhadeeproy3902
-[![OpBento](https://firebasestorage.googleapis.com/v0/b/smartkaksha-fe32c.appspot.com/o/opbento%2Fbento_1730532766372.png?alt=media&token=ba49919f-59b0-42d1-a34f-0e6fbb18eb12)](https://opbento.vercel.app)
+# Bento GitHub Stats
+![Bento GitHub Stats]()
